@@ -5,6 +5,7 @@ class asgn5{
 	int rad = sc.nextInt();
 	float pi = 3.14F;
 	double area = pi*rad*rad;
+	double cir = 2*pi*rad;
 	System.out.println("cicumference =" + cir)
 	System.out.println("%.3f" +area); // for taking output in 3 decimal places
 		
