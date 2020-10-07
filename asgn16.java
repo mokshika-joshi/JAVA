@@ -1,17 +1,16 @@
 import java.util.Scanner;
-class asgn16{
-	public static void main(String args[]){
-	Scanner sc = new Scanner(System.in);
-	System.out.println("Enter the number = ");
-	int a = sc.nextInt();
-	while(a!=0)
-	{
-		int b = a % 10;
-		rev = rev*10+b;
-		a = a/10;
-	}
-	System.out.println(rev);
-	}
+
+public class asgn16 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter a no to get table");
+		int num = sc.nextInt();
+		
+		for(int i=1; i<=10; i++) {
+			int no = num*i;
+			System.out.println(no);
+		}
 	}
 
 }
